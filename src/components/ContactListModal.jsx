@@ -3,6 +3,10 @@ import ContactItem from "./ContactItem";
 import { useContext, useState, useEffect } from "react";
 import ThemeContext from "../Contexts/ColorContext";
 import Modal from "./Modal.jsx";
+import Nils from "../images/Nils.jpg";
+import Antonia from "../images/Antonia.jpg";
+import Hugo from "../images/Hugo.jpg";
+import Dummy from "../images/Dummy.jpg";
 
 const contactArray = [
   {
@@ -13,7 +17,7 @@ const contactArray = [
     street: "Rheinstrasse 75",
     phone: "+49 1234 56788",
     email: "nils.holgerson@gmail.com",
-    image: "../images/Nils.jpg",
+    image: Nils,
   },
   {
     firstname: "Antonia",
@@ -23,7 +27,7 @@ const contactArray = [
     street: "Niemetzstrassse 27",
     phone: "+49 1234 56788",
     email: "antonia.bertram@gmail.com",
-    image: "../images/Antonia.jpg",
+    image: Antonia,
   },
   {
     firstname: "Hugo",
@@ -33,7 +37,7 @@ const contactArray = [
     street: "Hansestrasse 5",
     phone: "+49 1234 56788",
     email: "hugo.alos@gmail.com",
-    image: "../images/Hugo.jpg",
+    image: Hugo,
   },
 ];
 
@@ -45,7 +49,8 @@ const ContactList = () => {
   const [inputPhone, setInputPhone] = useState("");
   const [inputEmail, setInputEmail] = useState("");
   const [inputCity, setInputCity] = useState("");
-  const [inputImage, setInputImage] = useState("../images/Dummy.jpg");
+  // const [inputImage, setInputImage] = useState("../images/Dummy.jpg");
+  const [inputImage, setInputImage] = useState(Dummy);
   const [inputStreet, setInputStreet] = useState("");
   const [inputBirthday, setInputBirthday] = useState("");
   const [theme] = useContext(ThemeContext);

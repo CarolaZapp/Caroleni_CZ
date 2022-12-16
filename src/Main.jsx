@@ -39,7 +39,7 @@ const events = [
   {
     title: "Vacation",
     start: new Date(2022, 12, 19),
-    end: new Date(2023, 1, 2),
+    end: new Date(2023, 2, 1),
   },
   {
     title: "Conference",
