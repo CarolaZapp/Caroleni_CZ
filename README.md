@@ -13,8 +13,6 @@
 
 #### Desktop Version
 
-##### Used Api : https://openweathermap.org/api, https://type.fit/api/quotes
-
 ##### Available Scripts
 
 ###### In the project directory, you can run: `npm start`

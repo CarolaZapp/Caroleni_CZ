@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import ThemeContext from "../Contexts/ColorContext";
 import { useContext } from "react";
+import * as dotenv from "dotenv";
+dotenv.config();
 
-// const MY_KEY = "866470bfa7b122c147a6ef7230d9f2b3";
-const MY_KEY = "a2329ae0364e4ea5d24209a23134759e";
+const MY_KEY = process.env.MY_KEY;
 
 const Weather = ({ city }) => {
   const [theme] = useContext(ThemeContext);
