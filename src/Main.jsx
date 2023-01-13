@@ -38,13 +38,13 @@ const events = [
   },
   {
     title: "Vacation",
-    start: new Date(2022, 12, 19),
-    end: new Date(2023, 2, 1),
+    start: new Date(2023, 1, 6),
+    end: new Date(2023, 1, 6),
   },
   {
     title: "Conference",
-    start: new Date(2022, 10, 27),
-    end: new Date(2022, 10, 31),
+    start: new Date(2023, 1, 16),
+    end: new Date(2023, 1, 18),
   },
 ];
 
