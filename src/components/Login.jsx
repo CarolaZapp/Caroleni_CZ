@@ -130,6 +130,14 @@ const Login = ({ chooseCity }) => {
           </p>
         </div>
       </div>
+      <div>
+        <p className="allert">
+          !!! This Single Page Application Project build without Backend !!!
+        </p>
+        <p style={{ color: theme, textAlign: "center" }}>
+          To step into our Caroleni day please login with: Caroleni
+        </p>
+      </div>
       <Footer />
     </>
   );

@@ -64,6 +64,12 @@
   background: linear-gradient(rgb(255, 255, 255), transparent);
 }
 
+.allert {
+  color: red;
+  text-align: center;
+  margin-top: 3rem;
+}
+
 /* Main Page ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*--- Calendar-Main +++++++++++++++++++++++++++++++++++++++++++++++ */
 .rbc-header {
