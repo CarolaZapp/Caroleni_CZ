@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Caroleni_CZ/static/css/main.2e5503c3.css",
-    "main.js": "/Caroleni_CZ/static/js/main.ea65e085.js",
+    "main.css": "/Caroleni_CZ/static/css/main.373aa75b.css",
+    "main.js": "/Caroleni_CZ/static/js/main.2d72eedc.js",
     "static/media/Hugo.jpg": "/Caroleni_CZ/static/media/Hugo.8ca700e2ff38d1e71848.jpg",
     "static/media/Nils.jpg": "/Caroleni_CZ/static/media/Nils.5d6cbf4361233ccf4d36.jpg",
     "static/media/Antonia.jpg": "/Caroleni_CZ/static/media/Antonia.cd5a3292849b343d9d0e.jpg",
     "static/media/Dummy.jpg": "/Caroleni_CZ/static/media/Dummy.0a9e55cb5ed7aa03ecd4.jpg",
     "index.html": "/Caroleni_CZ/index.html",
-    "main.2e5503c3.css.map": "/Caroleni_CZ/static/css/main.2e5503c3.css.map",
-    "main.ea65e085.js.map": "/Caroleni_CZ/static/js/main.ea65e085.js.map"
+    "main.373aa75b.css.map": "/Caroleni_CZ/static/css/main.373aa75b.css.map",
+    "main.2d72eedc.js.map": "/Caroleni_CZ/static/js/main.2d72eedc.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e5503c3.css",
-    "static/js/main.ea65e085.js"
+    "static/css/main.373aa75b.css",
+    "static/js/main.2d72eedc.js"
   ]
 }
