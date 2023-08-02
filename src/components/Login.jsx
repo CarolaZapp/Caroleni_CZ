@@ -9,8 +9,8 @@ const Login = ({ chooseCity }) => {
   const [theme, setTheme] = useContext(ThemeContext);
   const navigate = useNavigate();
   const [data, setData] = useState({
-    userName: "test",
-    password: "test",
+    userName: "1",
+    password: "1",
     city: "",
   });
 
