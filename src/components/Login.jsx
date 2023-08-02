@@ -9,8 +9,8 @@ const Login = ({ chooseCity }) => {
   const [theme, setTheme] = useContext(ThemeContext);
   const navigate = useNavigate();
   const [data, setData] = useState({
-    userName: "Caroleni",
-    password: "Caroleni",
+    userName: "test",
+    password: "test",
     city: "",
   });
 
@@ -53,7 +53,7 @@ const Login = ({ chooseCity }) => {
             className="inputLogin"
             type="text"
             name="userName"
-            placeholder="Username: Caroleni"
+            placeholder="Username: test"
             onChange={(event) => setInputName(event.target.value)}
             value={inputName}
             style={{ border: `2px solid ${theme}` }}
@@ -63,7 +63,7 @@ const Login = ({ chooseCity }) => {
             className="inputLogin"
             type="password"
             name="password"
-            placeholder="Password: Caroleni"
+            placeholder="Password: test"
             onChange={(event) => setInputPassword(event.target.value)}
             value={inputPassword}
             style={{ border: `2px solid ${theme}` }}
@@ -135,7 +135,7 @@ const Login = ({ chooseCity }) => {
           !!! This Single Page Application Project build without Backend !!!
         </p>
         <p style={{ color: theme, textAlign: "center" }}>
-          To step into our Caroleni day please login with: Caroleni
+          To step into our Caroleni day please login with: <strong>test</strong>
         </p>
       </div>
       <Footer />

@@ -1,21 +1,20 @@
+import { useState, useContext, useEffect } from "react";
+
 import { Calendar } from "react-big-calendar";
 import { dateFnsLocalizer } from "react-big-calendar";
-
 import format from "date-fns/format";
 import parse from "date-fns/parse";
 import startOfWeek from "date-fns/startOfWeek";
 import getDay from "date-fns/getDay";
-import { useState, useContext, useEffect } from "react";
-import DatePicker from "react-datepicker";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import HeaderMain from "./components/HeaderMain";
+import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import Modal from "./components/Modal";
-import Sidebar from "./components/Sidebar";
+import HeaderMain from "./components/HeaderMain.jsx";
+import Modal from "./components/Modal.jsx";
+import Sidebar from "./components/Sidebar.jsx";
 import "./Main.css";
-
-import Footer from "./components/Footer";
-import ThemeContext from "./Contexts/ColorContext";
+import Footer from "./components/Footer.jsx";
+import ThemeContext from "./Contexts/ColorContext.js";
 
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
@@ -31,20 +30,20 @@ const localizer = dateFnsLocalizer({
 
 const events = [
   {
-    title: "Big Meeting",
+    title: "Meeting",
     allDay: true,
-    start: new Date(2023, 1, 20),
-    end: new Date(2023, 1, 20),
+    start: new Date(2023, 7, 8),
+    end: new Date(2023, 7, 8),
   },
   {
     title: "Vacation",
-    start: new Date(2022, 11, 23),
-    end: new Date(2022, 12, 2),
+    start: new Date(2023, 7, 21),
+    end: new Date(2023, 7, 23),
   },
   {
     title: "Conference",
-    start: new Date(2022, 12, 16),
-    end: new Date(2022, 12, 18),
+    start: new Date(2023, 8, 16),
+    end: new Date(2023, 8, 18),
   },
 ];
 
